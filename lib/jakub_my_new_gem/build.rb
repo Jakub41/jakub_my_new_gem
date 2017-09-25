@@ -27,5 +27,5 @@ module JakubMyNewGem
       @total += @total * (gratuity.to_f / 100)
     end
   end
-  
+
 end

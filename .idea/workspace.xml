@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c248b74-0bfe-4b0b-8349-5e65c8b356b6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jakub_my_new_gem/build.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jakub_my_new_gem.gemspec" afterPath="$PROJECT_DIR$/jakub_my_new_gem.gemspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jakub_my_new_gem.rb" afterPath="$PROJECT_DIR$/lib/jakub_my_new_gem.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jakub_my_new_gem/build.rb" afterPath="$PROJECT_DIR$/lib/jakub_my_new_gem/build.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,8 +27,8 @@
       <file leaf-file-name="build.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/jakub_my_new_gem/build.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="2" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+            <state relative-caret-position="570">
+              <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -141,12 +139,20 @@
       <option name="presentableId" value="Default" />
       <updated>1506328909851</updated>
       <workItem from="1506328911101" duration="779000" />
-      <workItem from="1506329739255" duration="1338000" />
+      <workItem from="1506329739255" duration="1439000" />
     </task>
+    <task id="LOCAL-00001" summary="Implemented the Gem code">
+      <created>1506332725363</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1506332725363</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2117000" />
+    <option name="totallyTimeSpent" value="2218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="850" y="22" width="830" height="1023" extended-state="0" />
@@ -177,6 +183,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implemented the Gem code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the Gem code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -238,8 +248,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/jakub_my_new_gem/build.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="2" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+        <state relative-caret-position="570">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
           <folding />
         </state>
       </provider>
