@@ -12,7 +12,7 @@ module JakubMyNewGem
     end
 
     def number_based?
-      (@gratuity.is_a? Numeric) || (@gratuityy.integer?)
+      (@gratuity.is_a? Numeric) || @gratuity.integer?
     end
 
     def string_based
@@ -23,7 +23,7 @@ module JakubMyNewGem
       end
     end
 
-    def calculation gratuity = @gratuity
+    def calculation (gratuity = @gratuity)
       @total += @total * (gratuity.to_f / 100)
     end
   end
