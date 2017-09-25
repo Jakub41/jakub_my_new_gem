@@ -3,7 +3,7 @@ module JakubMyNewGem
   class Build
     def initialize total:, gratuity:
       @total = total
-      @gratutity = gratuity
+      @gratuity = gratuity
     end
 
     def generate
@@ -12,18 +12,18 @@ module JakubMyNewGem
     end
 
     def number_based?
-      (@gratutity.is_a? Numeric) || (@gratutity.integer?)
+      (@gratuity.is_a? Numeric) || (@gratuityy.integer?)
     end
 
     def string_based
-      case @gratutity.downcase
+      case @gratuity.downcase
         when 'high'     then calculation 25
         when 'standard' then calculation 18
         when 'low'      then calculation 15
       end
     end
 
-    def calculation gratuity = @gratutity
+    def calculation gratuity = @gratuity
       @total += @total * (gratuity.to_f / 100)
     end
   end
