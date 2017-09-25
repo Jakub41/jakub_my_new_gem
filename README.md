@@ -23,10 +23,10 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-JakubMyNewGem::Builder.new(total: '100' gratuity: '23.5').generate #123.5
-JakubMyNewGem::Builder.new(total: '100' gratuity: 'high').generate #123.0
-JakubMyNewGem::Builder.new(total: '100' gratuity: 'low').generate #115.0
-JakubMyNewGem::Builder.new(total: '100' gratuity: '20').generate #120.0
+JakubMyNewGem::Build.new(total: '100' gratuity: '23.5').generate #123.5
+JakubMyNewGem::Build.new(total: '100' gratuity: 'high').generate #123.0
+JakubMyNewGem::Build.new(total: '100' gratuity: 'low').generate #115.0
+JakubMyNewGem::Build.new(total: '100' gratuity: '20').generate #120.0
 ```
 
 ## Development
