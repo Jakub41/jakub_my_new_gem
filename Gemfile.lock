@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jakub_my_new_gem (0.1.1)
+    jakub_my_new_gem (0.1.2)
 
 GEM
   remote: https://rubygems.org/
