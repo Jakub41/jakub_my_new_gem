@@ -1,7 +1,14 @@
+class String
+  def integer?
+    return true if self =~ /^[1-9]\d*(\.\d+)?$/
+    false
+  end
+end
+
 module JakubMyNewGem
 
   class Build
-    def initialize total:, gratuity:
+    def initialize (total:, gratuity:)
       @total = total
       @gratuity = gratuity
     end
